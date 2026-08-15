@@ -6,7 +6,7 @@ import { initializeModel } from '../lib/tfjs-setup';
 export default function PoseTracker() {
   const videoRef = useRef<HTMLVideoElement>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
-  const requestRef = useRef<number>();
+  const requestRef = useRef<number>(0);
   
   // モデルインスタンスを保持
   const detectorRef = useRef<any>(null);
