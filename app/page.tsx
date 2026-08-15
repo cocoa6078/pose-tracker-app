@@ -21,7 +21,7 @@ export default function Home() {
           姿勢トラッキング・プロトタイプ
         </h1>
         <p className="text-gray-600">
-          TensorFlow.js (MoveNet) を使用したリアルタイムの関節検知
+          TensorFlow.js (MoveNet) を使用したリアルタイム検知
         </p>
       </div>
 

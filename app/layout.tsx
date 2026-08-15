@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: 'Pose Tracker Prototype',
-  description: 'ブラウザベースのリアルタイム姿勢トラッキングと亀首検知',
+  description: 'ブラウザベースのリアルタイム姿勢トラッキング',
 };
 
 export default function RootLayout({
